@@ -1,10 +1,3 @@
-/*  
-  Rui Santos & Sara Santos - Random Nerd Tutorials
-  https://RandomNerdTutorials.com/esp-idf-esp32-blink-led/
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.
-  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -12,7 +5,7 @@
 #include "sdkconfig.h"
 
 // Define the GPIO pin for the LED (GPIO 2 is common for onboard LEDs)
-#define BLINK_GPIO 2
+#define BLINK_GPIO 5
 
 void app_main(void)
 {
